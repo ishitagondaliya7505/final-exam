@@ -1,0 +1,583 @@
+<html>
+    <head>
+    
+        <style>
+                      *{
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+  }
+  .header{
+      position: static;
+  }
+  
+  .header ul{
+      display: flex;
+      width: 100%;
+      background-color:black;
+  }
+  .logo{
+    display: flex;
+    align-items: center;
+    margin-right: 350px;
+  }
+  .logo img{
+      width: 88px;
+      padding: 0 25px;
+  }
+  .logo1 img{
+    width:100px;
+    padding : 0 25px;
+  }
+  .header ul li{
+      list-style: none;
+      padding: 10px;
+  }
+  .header ul li a{
+      color: white;
+      text-decoration: none;
+  }
+  .p1{
+      position: static;
+  }
+  
+  .p1 ul{
+      display: flex;
+      width: 100%;
+  }
+  .p1 ul li{
+      list-style: none;
+      padding: 10px;
+      margin: 10px;
+  }
+  .p1 ul li a{
+      color: white;
+      text-decoration: none;
+      margin: 5px;
+  }
+  .search{
+    display: flex;
+    align-items: center;
+    margin-left: 350px;
+    
+  }
+  nav ul li{
+    padding: 0 23px;
+    align-items: center;
+  }
+  #d2{
+    margin-left: 10px;
+  }
+  .carouselExampleCaptions{
+    height: 550px;
+  }
+  /* footer css start */
+.footer-main{
+    background-color: #000;
+    width: 100%;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    padding-bottom: 50px;
+    max-width: 100rem;
+    margin-top: 20rem;
+  }
+  .fa-brands{
+    color: white;
+    font-size: 30px;
+    width: 5%;
+  }
+  .icon {
+   width: 100%;
+   max-width: 100%;
+   justify-content: center;
+   display: flex;
+  }
+  .butyfooter {
+  
+    padding: 30px 0px;
+    border-bottom: 1px solid #999999;
+}
+ .border{
+    width: 100%;
+    max-width: 96%;
+    margin: auto;
+ }
+ .stores-one{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 60rem;
+    margin:30px auto;
+    flex-wrap: wrap;
+ }
+ .all a{
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
+  
+ }
+ .Storesmain{
+    border-bottom: 1px solid #999999;
+ }
+ .get-tuch-main{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+ }
+ .get-tuch-main h4,h2,p{
+    color: white;
+ }
+ .column1{
+            float: left;
+            padding:20 30px;
+        }
+        .column2{
+            float: left;
+            padding:20 30px;
+        }
+        .column3{
+            float: left;
+            padding:20 30px;
+        }
+        .column4{
+            float: left;
+            padding:80 30px;
+        }
+        .column5{
+            float: left;
+            padding:80 30px;
+        }
+        .column6{
+            float: left;
+            padding:80 30px;
+        }
+        .column7{
+            float: left;
+            padding:120 30px;
+        }
+        .column8{
+            float: left;
+            padding:120 30px;
+        }
+        .column9{
+            float: left;
+            padding:120 30px;
+        }
+        .column10{
+            float: left;
+            padding:180 30px;
+        }
+        .column11{
+            float: left;
+            padding:180 30px;
+        }
+        .column12{
+            float: left;
+            padding:180 30px;
+        }
+        .column13{
+            float: left;
+            padding:230 30px;
+        }
+        .column14{
+            float: left;
+            padding:230 30px;
+        }
+        .column15{
+            float: left;
+            padding:230 30px;
+        }
+        .row1{
+    height: 300px;
+    width: 350px;
+    display: flex;
+  }
+  .row2{
+    height: 300px;
+    width: 350px;
+    display: flex;
+  }
+  .row3{
+    height:300px;
+    width: 350px;
+    display: flex;
+  }
+  .row4{
+    height:300px;
+    width: 350px;
+    display: flex;
+  }
+  .row5{
+    height:300px;
+    width: 350px;
+    display: flex;
+  }
+  .row1 h3 a{
+      color: black;
+      text-decoration: none;
+  }  
+  .row2 h3 a{
+      color: black;
+      text-decoration: none;
+  }
+  .row3 h3 a{
+      color: black;
+      text-decoration: none;
+  }
+  .row4 h3 a{
+      color: black;
+      text-decoration: none;
+  }
+  .row5 h3 a{
+      color: black;
+      text-decoration: none;
+  } 
+        .row::after{
+            content: "";
+            display: table;
+            clear: both;
+        }
+ * {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+        </style>
+        
+    </head>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />    
+    <body>
+        <section>
+            <div class="header">
+                    <nav>
+                        <ul>
+                        <li class="logo">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsNsXI5rfDcNA5XEzO_MkR39HEk7knG4GDhQ&usqp=CAU">
+                            </li>   
+                        <li><a href="index.html">Index</a></li>
+                        <li><a href="shop.html">Shop</a></li>
+                        <li><a href="brands.html">Brands</a></li>
+                        <div class="search">
+                            <input type="text" name="search" id="search" placeholder="search hear...">
+                            <input type="button" id="d2" value="search">
+                        </div>
+                    </ul>
+                    </nav>
+        <h1 align="center" style="padding:15px; ">Make-UP</h1>
+        
+        <div class="p1">
+            <ul>
+                        <li><h3><a href="Lips.html">LIPS</a></h3></li>
+                        <li><h3><a href="EYES.html">EYES</a></h3></li>
+                        <li><h3><a href="face.html">FACE</a></h3></li>
+                        <li><h3><a href="skincare.html">SKINCARE</a></h3></li>
+                        <li><h3><a href="accessories.html">ACCESSORIES</a></h3></li>
+                        <li><h3><a href="gift.html">GIFT</a></h3></li>
+                        <li><h3><a href="bestsellers.html">BESTSELLERS</a></h3></li>
+                        <li><h3><a href="new launches.html">NEW LAUNCHES</a></h3></li>
+                        <li><h3><a href="offers.html">OFFERS</a></h3></li>
+                    </ul>
+                
+            </div>
+    
+        </div>
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 3</div>
+              <img src="https://img.freepik.com/free-vector/realistic-beauty-sale-banner-with-offer_52683-94987.jpg?w=2000" style="width:100%">
+              <div class="text">Caption Text</div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 3</div>
+              <img src="https://img.freepik.com/free-vector/realistic-beauty-offer-sale-banner-template_52683-94984.jpg" style="width:100%">
+              <div class="text">Caption Two</div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 3</div>
+              <img src="https://img.freepik.com/premium-vector/realistic-beauty-offer-sale-banner_52683-94981.jpg" style="width:100%">
+              <div class="text">Caption Three</div>
+            </div>
+            
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+            
+            </div>
+            <br>
+            
+            <div style="text-align:center">
+              <span class="dot" onclick="currentSlide(1)"></span> 
+              <span class="dot" onclick="currentSlide(2)"></span> 
+              <span class="dot" onclick="currentSlide(3)"></span> 
+            </div>
+            
+            <script>
+            let slideIndex = 1;
+            showSlides(slideIndex);
+            
+            function plusSlides(n) {
+              showSlides(slideIndex += n);
+            }
+            
+            function currentSlide(n) {
+              showSlides(slideIndex = n);
+            }
+            
+            function showSlides(n) {
+              let i;
+              let slides = document.getElementsByClassName("mySlides");
+              let dots = document.getElementsByClassName("dot");
+              if (n > slides.length) {slideIndex = 1}    
+              if (n < 1) {slideIndex = slides.length}
+              for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+              }
+              for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";  
+              dots[slideIndex-1].className += " active";
+            }
+            </script>
+            <div class="row1">
+              <div class="column1">
+                <a href="MOISTURIZER.html"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJ6Xlisp8ghMNHZGMA2OCQ8hUCDLda_Xmmiw&usqp=CAU"
+                   width="350px" height="300px"></a>
+                  <h3 align="center"><a href="MOISTURIZER.html">MOISTURIZER</a></h3>
+              </div>
+              <br><br>
+              <div class="column2">
+                <a href="SUNSCREENS.html"><img src="https://www.shutterstock.com/image-vector/moisture-sunscreen-ads-on-white-260nw-1414309943.jpg" 
+                  width="350px" height="300px"></a>
+                  <h3 align="center"><a href="SUNSCREENS.html">SUNSCREENS</a></h3>
+  
+              </div>
+              <div class="column3">
+                <a href="MASKS.html"> <img src="https://bestmediainfo.com/uploads/2019/08/Sara-Ali-Khan-is-new-face-for-Garnier-Skin-Naturals_6.jpg" 
+                  width="350px" height="300px"></a>
+                  <h3 align="center"><a href="MASKS.html">MASKS</a></h3>
+  
+              </div>
+              
+           </div>
+           <div class="row2">
+            <div class="column4">
+              <a href="SERUMS.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC0QbrPAcCFjZWHviCAe8WievV6GuP5cSAiw&usqp=CAU" 
+                width="350px" height="300px"></a>
+                <h3 align="center"><a href="SERUMS.html">SERUMS</a></h3>
+            </div>
+            <div class="column5">
+              <a href="CLEANSERS.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFmMS3y6PeR0hdtlk3Dqru_OxtbaHkhjrE5g&usqp=CAU" 
+                width="350px" height="300px"></a>
+                <h3 align="center"><a href="CLEANSERS.html">CLEANSERS</a></h3>
+
+            </div>
+            <div class="column6">
+              <a href="EXFOLIATORS.html"><img src="data:image/jpeg;base64,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" 
+                width="350px" height="300px"></a>
+                <h3 align="center"><a href="EXFOLIATORS.html">EXFOLIATORS</a></h3>
+
+            </div>
+            
+         </div><div class="row3">
+          <div class="column7">
+            <a href="FACE-MISTS.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQL_RZXD3-kFlyIC-QeM-d5YMI9iVJ6kOPlJQ&usqp=CAU" 
+              width="350px" height="300px"></a>
+              <h3 align="center"><a href="FACE-MISTS.html">FACE-MISTS</a></h3></h3>
+          </div>
+          <br><br>
+          <div class="column8">
+            <a href="COOLING-STICKS.html"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfItSgGDWG1bp0W_jYI0oxx4fKO5DJFwRTjA&usqp=CAU" 
+              width="350px" height="300px"></a>
+              <h3 align="center"><a href="COOLING-STICKS.html">COOLING-STICKS</a></h3>
+
+          </div>
+          <div class="column9">
+            <a href="LIP&EYECARE.html"><img src="https://www.pinkvilla.com/english/images/2023/01/1323275167_brown-modern-with-colorful-youtube-banner-2023-01-27t130501-370_1600*900.jpg" 
+              width="350px" height="300px"></a>
+              <h3 align="center"><a href="LIP&EYECARE.html">LIP & EYE CARE</a></h3>
+
+          </div>
+          
+       </div><div class="row4">
+        <div class="column10">
+          <a href="SKINCARE SETS & COMBOS.html"><img src="https://m.media-amazon.com/images/I/51RWyKOp-yL._SL1500_.jpg" 
+            width="350px" height="300px"></a>
+            <h3 align="center"><a href="SKINCARE SETS & COMBOS.html">SKINCARE SETS & COMBOS</a> </h3>
+        </div>
+        <br><br>
+        <div class="column11">
+          <a href="AQUAHOLIC.html"><img src="https://www.ritzmagazine.in/wp-content/uploads/2019/12/SUGAR-Cosmetics.jpg" 
+            width="350px" height="300px"></a>
+            <h3 align="center"><a href="AQUAHOLIC.html">AQUAHOLIC</a> </h3>
+
+        </div>
+        <div class="column12">
+            <a href="COFFEE CULTURE.html"></a><img src="data:image/jpeg;base64,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" 
+            width="350px" height="300px"></a>
+            <h3 align="center"><a href="COFFEE CULTURE.html">COFFEE CULTURE</a> </h3>
+
+        </div>
+        
+     </div>
+     <div class="row5">
+      <div class="column13">
+        <img src="https://wallpapers.com/images/featured/7sn5o1woonmklx1h.jpg" 
+        width="350px" height="300px">
+        <h3 align="center"><a href="CITRUS GOT REAL.html"></a> </h3>
+      </div>
+      <br><br>
+      <div class="column14">
+        <a href="CITRUS GOT REAL.html"><img src="https://img.freepik.com/premium-vector/fresh-citrus-cosmetic-set-with-flowing-creamy-lotion-glittering-effect-3d-illustration-skincare-ads_317396-816.jpg" 
+          width="350px" height="300px"></a>
+          <h3 align="center"><a href="CITRUS GOT REAL.html">CITRUS GOT REAL</a> </h3>
+
+      </div>
+      <div class="column15">
+        <img src="https://wallpapers.com/images/featured/7sn5o1woonmklx1h.jpg"
+        width="350px" height="300px">
+        <h3 align="center"><a href="CITRUS GOT REAL.html"></a> </h3>
+      </div>
+      
+   </div>
+        <footer>
+            <div class="footer-main">
+               <div class="border">
+                   <div class="butyfooter">  
+                       <div class="icon">
+                           <i class="fa-brands fa-facebook"></i>
+                           <i class="fa-brands fa-twitter"></i>
+                           <i class="fa-brands fa-youtube"></i>
+                           <i class="fa-brands fa-square-instagram"></i>
+                           <i class="fa-brands fa-github"></i>
+                           <i class="fa-brands fa-linkedin"></i>
+                        </div>
+                    </div>
+    
+                    <div class="Storesmain">
+                        <div class="stores-one">
+                          <div class="all"><a href="stores.html">Stores</a></div>
+                          <div class="all"><a href="Terms & Conditions.html">Terms & Conditions</a></div>
+                          <div class="all"><a href="Returns.html">Returns</a></div>
+                          <div class="all"><a href="FAQs.html">FAQs</a></div>
+                          <div class="all"><a href="About Us.html">About Us</a></div>
+                        </div>
+                    </div>
+    
+                    <div class="get-tuch-main">
+                        <div class="gettuch">
+                            <h2>GET IN TOUCH</h2>
+                            <h4>Call us at</h4>
+                            <h5>1800-209-9933</h5>
+                            <p>Monday to Friday : 9 AM to 7 PM</p>
+                        </div>
+                        <div class="Support">
+                            <h2>Support</h2>
+                            <h4>hello@sugarcosmetics.com</h4>                        
+                        </div>
+                        <div class="Careers">
+                            <h2>Careers</h2>
+                            <h4>We're hiring!</h4>
+                        </div>
+                        <div class="Press">
+                           <h2>Press & Media</h2>
+                           <h4>pr@sugarcosmetics.com</h4>
+                        </div>
+                        <div class="Influencer">
+                            <h2>Influencer Collab</h2>
+                            <h4>Join Us</h4>
+                        </div>
+    
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

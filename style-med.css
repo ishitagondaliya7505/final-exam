@@ -1,0 +1,385 @@
+.map-one-para iframe {
+    width: 100%;
+    max-width: 111rem;
+    height: 44rem;
+}
+
+.container-para {
+    background: #FFFFFF;
+    border: 1px solid #85A633;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.06);
+    border-radius: 10px;
+    width: 100%;
+    max-width: 286.32px;
+    height:67.01px;
+
+}
+
+.vijay-nagar-body {
+    width: 100%;
+    height: 172px;
+    max-width: 567px;
+    background: #FFFFFF;
+    box-shadow: 0px -6px 15px rgba(0, 0, 0, 0.04);
+    border-radius: 10px;
+}
+
+.map-one-para {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-one {
+    position: relative;
+    bottom: 20rem;
+}
+.container-para img{
+padding-right: 16px;
+width:33px;
+}
+.container-para p{
+    color:#85A633;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.container-para {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height:50px;
+    margin-bottom: 1rem;
+}
+.vijay-heding-para{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    max-width: 460px;
+    justify-content: space-around;
+    align-items: center;
+}
+.vijay-heding-para h3{
+   padding-right:150px;
+   font-size: 24px;
+}
+.vijay-heding-para span{
+    color: #85A633;
+}
+.vijay-heding-para img{
+    width: 32px;
+}
+.vijay-nagar-body button{
+    border: none;
+    margin: 20px 0px 0px 37px;
+    height: 58px;
+    width: 490px;
+    background: #85A633;
+    border-radius: 10px;
+}
+.vijay-nagar-body a{
+ text-decoration: none;
+ color: white;
+ font-size: 20px;
+}
+
+@media screen and (max-width:1700px){
+
+} 
+
+@media screen and (max-width:1279px) {
+.enter-wolate-for-mony {
+max-width: 31rem;
+}
+/* subscrib item medai */
+.select-size1 label {
+width: 95.49px !important;
+}
+
+.wolate-one-para {
+max-width: 32rem !important;
+
+}
+
+.wolate-one-para p {
+padding: 0px 258px 0px 35px !important;
+}
+
+.payment-subscript-enker {
+width: 100% !important;
+max-width: 500px !important;
+height: 47px !important;
+
+}
+
+.subscribe-body-iter {
+width: 100% !important;
+max-width: 30rem !important;
+}
+.subscribe-iter-body-tomato{
+width:100%;
+max-width: 30rem;
+}
+.subscribe-iter-body-enter{
+padding: 0px 16px 0px 1px !important;
+}
+
+}
+@media screen and (max-width:992px) {
+.main-container-tomato-third{
+    width: 100%;
+    max-width: 673px;
+    justify-content: space-around;
+}
+.enter-wolate-for-mony {
+max-width: 21rem;
+}
+/* subscrib item medai */
+.subscrib-hedar{
+justify-content: center;
+flex-direction: column;
+align-content: center;
+align-items: center;
+}
+.subscribe-body-iter {
+max-width: 45rem !important;
+}
+.subscribe-iter-body-tomato {
+max-width: 45rem ;
+}
+.select-size{
+max-width: 46rem !important;
+}
+.select-size1{
+max-width: 46rem !important;
+}
+.wolate-one-para {
+max-width: 45rem !important;
+}
+.payment-subscript-enker {
+max-width: 718px !important;
+}
+.subscribe-iter-body-tomato{
+padding: 25px !important;
+justify-content: space-around !important;
+}
+.subscribe-body-iter h2{
+padding: 33px 0px 35px 25px !important;
+}
+.wolate-one-para p {
+padding: 0px 479px 0px 35px !important;
+}
+
+.div-main-input-payment-two {
+display: flex;
+flex-wrap: wrap;
+}
+}
+@media screen and (max-width:767px) {
+.enter-wolate-for-mony {
+max-width: 10rem;
+}
+/* subscrib item medai */
+.wolate-one-para p {
+padding: 0px 272px 0px 35px !important;
+}
+.subscribe-body-iter {
+max-width: 32rem !important;
+}
+
+.main-one {
+position: relative;
+bottom: 16rem;
+} 
+
+}
+@media screen and (max-width:575px) {
+.container-history-hedar{
+padding:16px;
+}
+.payment-by-upi-para {
+padding: 0px 17px 1px 1px;
+font-size: 13px;
+}
+.monay-add-one-box {
+margin-right: 6px;
+}
+/* subscribe page   medai */
+
+.button-emar-enter-button{
+display: none !important;
+}
+.one-pluse-para{
+display: none !important;
+}
+#main-buton-pra-one-new{
+display:flex !important;
+}
+.wolate-one-para p {
+padding: 0px 107px 0px 35px !important;
+}
+.subscribe-body-iter {
+max-width: 24rem !important;
+}
+.select-size{
+justify-content: flex-start;
+flex-wrap: wrap;
+}
+lable{
+margin:5px;
+}
+.select-size1 label{
+margin:5px;
+}
+.select-size1{
+justify-content: flex-start;
+flex-wrap: wrap;
+margin-top:1rem;
+}
+.select-size1 lable{
+margin:5px;
+}
+
+.vijay-nagar-body button {
+    width: 446px;
+}
+.main-one {
+bottom: 5rem;
+} 
+
+}
+@media screen and (max-width:525px){
+.vijay-heding-para h3 {
+padding-right: 116px;
+font-size: 21px;
+}
+.vijay-nagar-body button{
+width: 100%;
+max-width: 347px;
+}
+.vijay-nagar-body {
+display: flex;
+width: 100%;
+max-width: 567px;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+text-align: center;
+}
+.vijay-nagar-body button{
+margin: 39px 0px 0px 0px;
+}
+@media screen and (max-width:474px){
+.enter-wolate-for-mony {
+max-width: 8rem !important;
+}
+/* subscrib item medai */
+
+.wolate-one-para p {
+padding: 0px 100px 0px 35px !important;
+}
+.subscribe-body-iter {
+max-width: 23rem !important;
+}
+.select-size1 label {
+width: 76.49px !important;
+}
+label{
+width: 45px !important;
+height: 48px !important;
+}
+.payment-hedar-start {
+padding-left: 24px;
+}
+
+}
+}
+@media screen and (max-width:424px) {
+.monay-add-one-box img{
+ height: 30px; 
+}
+.enter-wolate-for-mony p {
+padding-bottom: 4px;
+}
+.enter-wolate-for-mony {
+max-width: 7rem;
+}
+.payment-by-upi-para {
+font-size: 10px;
+width: 100%;
+max-width: 62px
+}
+.enter-wolate-for-mony {
+max-width: 8rem !important;
+}
+.payment-by-upi-para {
+width: 100%;
+max-width: 79px;
+}
+.main-mony-inverstment p{
+font-size: 10px;
+}
+.para-fast-para-full-paragaph{
+font-size: 12px;
+}
+.para-para-paragaroh-mony-add{
+font-size: 10px;
+}
+#cars {
+width: 84.09px;
+margin: 0px 1px 9px 7px;
+font-size: 15px;
+height: 25.59px;
+}
+/* subscrib item medai */
+.subscribe-body-iter {
+max-width: 22rem !important;
+}
+.subscribe-iter-body-tomato {
+padding: 15px !important;
+}
+.wolate-one-para p {
+padding: 0px 57px 0px 35px !important;
+}
+.subscribe-iter-body-enter {
+padding: 0px 16px 0px 1px !important;
+}
+.select-size1{
+justify-content: flex-start !important;
+flex-wrap: wrap !important;
+align-content: flex-start !important;
+}
+.select-size{
+justify-content: flex-start !important;
+flex-wrap: wrap !important;
+align-content: flex-start !important;
+}
+
+.vijay-heding-para h3 {
+padding-right: 83px;
+}
+}
+@media screen and (max-width:375px) {
+ .subscribe-body-iter {
+ max-width: 18rem !important;
+}
+.subscribe-iter-body-tomato {
+padding: 6px !important;
+}
+.wolate-one-para p {
+padding: 0px 25px 0px 35px !important;
+}
+.subscribe-iter-body-enter {
+padding: 0px 2px 0px 1px !important;
+}
+
+.payment-hedar-start {
+padding-left: 14px !important;
+padding-right: 15px !important;
+}
+.vijay-heding-para h3 {
+padding-right: 3px;
+}        
+}
